@@ -1,21 +1,21 @@
 package ctec.model;
 
-public class Mudkip extends Pokemon
+public class Giratina
 {
-	public Mudkip()
+	public Giratina()
 	{
 		super();
 		
-		this.setName("Mudkip");
+		this.setName("Giratina");
 		this.setNumberOfArms(0);
-		this.setNumberOfLegs(4);
-		this.setDexNumber(258);
+		this.setNumberOfLegs(6);
+		this.setDexNumber(487);
 	}
 	
 	@Override
 	public String name(String name)
 	{
-		name = "Mudkip";
+		name = "Giratina";
 		
 		return name;
 	}
@@ -23,19 +23,19 @@ public class Mudkip extends Pokemon
 	@Override
 	public int numberOfArms()
 	{
-		int mudkipArms = 0;
+		int giratinaArms = 0;
 	}
 	
 	@Override
 	public int numberOfLegs()
 	{
-		int mudkipLegs = 4;
+		int giratinaLegs = 6;
 	}
 	
 	@Override
 	public int setDexNumber()
 	{
-		int dexNumber = 258;
+		int dexNumber = 487;
 	}
 
 }
